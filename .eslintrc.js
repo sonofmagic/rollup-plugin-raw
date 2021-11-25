@@ -1,4 +1,4 @@
-function getJestGlobals (flag = true) {
+function getJestGlobals(flag = true) {
   return {
     afterAll: flag,
     afterEach: flag,

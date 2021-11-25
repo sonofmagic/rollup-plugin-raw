@@ -605,6 +605,14 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
+"@rollup/pluginutils@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.nlark.com/@rollup/pluginutils/download/@rollup/pluginutils-4.1.1.tgz?cache=0&sync_timestamp=1626393703548&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40rollup%2Fpluginutils%2Fdownload%2F%40rollup%2Fpluginutils-4.1.1.tgz#1d4da86dd4eded15656a57d933fda2b9a08d47ec"
+  integrity sha1-HU2obdTt7RVlalfZM/2iuaCNR+w=
+  dependencies:
+    estree-walker "^2.0.1"
+    picomatch "^2.2.2"
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
   resolved "https://registry.nlark.com/@sinonjs/commons/download/@sinonjs/commons-1.8.3.tgz#3802ddd21a50a949b6721ddd72da36e67e7f1b2d"

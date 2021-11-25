@@ -1,9 +1,12 @@
-export const foo = 'bar'
+import { addExtension, createFilter } from '@rollup/pluginutils'
+import type { Plugin } from 'rollup'
 
-export const wait = (timeout?: number) => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(true)
-    }, timeout)
-  })
+export default function rawPlugin (options = {}) {
+  const plugin: Plugin = {
+    name: 'rollup-plugin-raw',
+    resolveId (code, id) {
+      return undefined
+    }
+  }
+  return plugin
 }
